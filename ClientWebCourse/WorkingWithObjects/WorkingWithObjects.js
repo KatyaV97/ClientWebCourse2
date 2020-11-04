@@ -47,15 +47,19 @@ console.log(AIS.countries.sort(function (country1, country2) {
 
 AIS.CountriesInformation = {};
 
+//2. Создание объекта с информацией о каждой стране
 AIS.countries.forEach(function (country) {
-    AIS.CountriesInformation[country.name] = country.cities.reduce(function (citiesPopulation, city) {
-        return citiesPopulation.population + city.population;
-    });
+    AIS.CountriesInformation[country.name] = getCountryPopulation(country);
 });
 
 console.log(AIS.CountriesInformation);
-/*
-for (var i = 0; i < AIS.countries.length; i++) {
-    AIS.CountriesInformation[AIS.countries[i].name] = AIS.countries[i].cities;
-}
-*/
+
+function getCountryPopulation(country) {
+    var population = 0;
+
+    country.cities.forEach(function (city) {
+        population += city.population;
+    });
+
+    return population;
+};
