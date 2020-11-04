@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Html", "Html\Html.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CssText", "CssText\CssText.csproj", "{70480081-F405-4021-B907-C17E49DC9E88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithArrays", "WorkingWithArrays\WorkingWithArrays.csproj", "{73DFE0A8-970A-48C8-8D8E-908EBFCF5AF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{70480081-F405-4021-B907-C17E49DC9E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70480081-F405-4021-B907-C17E49DC9E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70480081-F405-4021-B907-C17E49DC9E88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73DFE0A8-970A-48C8-8D8E-908EBFCF5AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73DFE0A8-970A-48C8-8D8E-908EBFCF5AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73DFE0A8-970A-48C8-8D8E-908EBFCF5AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73DFE0A8-970A-48C8-8D8E-908EBFCF5AF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
