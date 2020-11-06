@@ -67,8 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Normalize.css" />
     <Content Include="Page.html" />
-    <Content Include="StylePage.css" />
+    <Content Include="PageStyle.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

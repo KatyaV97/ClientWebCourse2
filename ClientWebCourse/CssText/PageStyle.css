@@ -1,0 +1,40 @@
+﻿.* {
+	box-sizing: border-box;
+}
+
+.mainForm {
+	height: 465px;
+	width: 850px;
+	background-color: #FEEED6;
+}
+.title {
+	font-family: Arial;
+	color: #716B68;
+	margin: 0px 0px 0px 15px;
+	padding-top: 7px;
+}
+
+p {
+	font-size: 114%;
+	font-family: Arial;
+	color: #716B68;
+	text-align: justify;
+	margin: 10px 15px 0px 15px;
+}
+
+.topic {
+	color: #378CB0;
+	font-weight: bold;
+}
+
+.description {
+	margin: 15px 10px 0px 15px;
+}
+
+.text {
+	margin-left: 15px;
+}
+
+.oldPrice{
+	text-decoration:line-through;
+}
