@@ -2,26 +2,25 @@
 	box-sizing: border-box;
 }
 
-table{
-	
-	font-family:Calibri;
-	text-align:left;
-	border-color:#CCCCCC;
+.candidatesTable {
+	font-family: Calibri;
+	text-align: left;
+	border-color: #CCCCCC;
 }
 
-th {
-	background-color: #3498DB;
-	color: #FFFFFF;
-	font-size: 145%;
-	padding-left: 13px;
-}
+	.candidatesTable th {
+		background-color: #3498DB;
+		color: #FFFFFF;
+		font-size: 145%;
+		padding-left: 13px;
+	}
 
-td {
-	font-size: 150%;
-	padding-left: 10px;
-	color:#292929;
-}
+	.candidatesTable td {
+		font-size: 150%;
+		padding-left: 10px;
+		color: #292929;
+	}
 
-tr:nth-child(even) {
-	background-color: #EEEEEE;
-}
+	.candidatesTable tr:nth-child(even) {
+		background-color: #EEEEEE;
+	}
