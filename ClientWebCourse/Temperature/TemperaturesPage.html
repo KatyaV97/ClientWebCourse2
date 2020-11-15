@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>temperaturesConverting</title>
+    <link rel="stylesheet" type="text/css" href="Style.css" />
+    <link rel="stylesheets" type="text/css" href="Normalize.css" />
+    <script defer src="TemperaturesConverting.js"></script>
+</head>
+<body>
+    <div class="mainForm">
+        <h1>Перевод температур</h1>
+        <p>Введите температуру в градусах Цельсия:</p>
+        <input type="text" placeholder="Введите значение" id="initial_value"/><span>град. С</span><br />
+        <select id="scale" size="3">
+            <option disabled>Выберете шкалу</option>
+            <option>Фаренгейт</option>
+            <option>Кельвин</option>
+        </select><br />
+        <button type="button" id="convert_button">Перевести</button>
+        <p>Преобразованное значение:</p>
+    </div>
+</body>
+</html>
