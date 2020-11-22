@@ -1,11 +1,21 @@
-﻿.* {
+﻿* {
 	box-sizing: border-box;
 }
 
-.mainForm{
+.mainForm {
 	width: 400px;
 	height: 300px;
-	
 	background-color: #f7ebc3;
 }
 
+.title {
+	text-align: center;
+}
+
+.error {
+	color: #ff0000;
+}
+
+.main_elements {
+	margin: 10px 15px 0px 15px;
+}

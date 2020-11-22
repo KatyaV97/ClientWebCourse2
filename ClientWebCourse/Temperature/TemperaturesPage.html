@@ -8,17 +8,19 @@
     <script defer src="TemperaturesConverting.js"></script>
 </head>
 <body>
-    <div class="mainForm">
-        <h1>Перевод температур</h1>
-        <p>Введите температуру в градусах Цельсия:</p>
-        <input type="text" placeholder="Введите значение" id="initial_value"/><span>град. С</span><br />
-        <select id="scale" size="3">
+    <div class="mainForm" id="form">
+        <p></p>
+        <h1 class="title">Перевод температур</h1>
+        <p class="main_elements">Введите температуру в градусах Цельсия:</p>
+        <input type="text" placeholder="Введите значение" class="main_elements" id="initial_value" /><span>град. С</span><br />
+        <select class="main_elements" id="scale" size="3">
             <option disabled>Выберете шкалу</option>
             <option>Фаренгейт</option>
             <option>Кельвин</option>
         </select><br />
-        <button type="button" id="convert_button">Перевести</button>
-        <p>Преобразованное значение:</p>
+        <button type="button" class="main_elements" id="convert_button">Перевести</button>
+        <div class="error main_elements" id="error_message"></div>
+        <div class="main_elements" id="result"></div>
     </div>
 </body>
 </html>
