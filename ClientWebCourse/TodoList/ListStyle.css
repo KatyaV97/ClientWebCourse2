@@ -1,0 +1,51 @@
+﻿* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 10px;
+	font-size: 16px;
+	font-family: Arial, serif;
+}
+
+.delete_button, .cancel_button {
+	background-color: #fa1a1a;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.edit_button, .add_button, .save_button {
+	background-color: #076af3;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.error {
+	color: #ff0000;
+	font-weight: bold;
+}
+
+.todo_list button {
+	margin-left: 5px;
+}
+
+.todo_list li + li {
+	margin-top: 5px;
+}
+
+.title {
+	text-align: center;
+}
+
+.main_form {
+	background-color: #83fbff;
+	width: 700px;
+	border: 4px solid;
+	margin: 10px;
+	border-radius: 10px;
+	border-color: #078b98;
+}
+
+.input_form {
+	margin: 10px;
+}
